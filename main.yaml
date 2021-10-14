@@ -2,6 +2,6 @@
   gather_facts: yes
   become: yes
   tasks:
-    - name: "aws inspector"
+    - name: "aws inspector agent"
       include_role:
-        name: inspector
+        name: aws-inspector-agent
