@@ -1,0 +1,7 @@
+- hosts: localhost
+  gather_facts: yes
+  become: yes
+  tasks:
+    - name: "aws inspector"
+      include_role:
+        name: inspector
