@@ -1,6 +1,6 @@
 ---
 galaxy_info:
-  author: Zededa
+  author: Tia
   description: Installs the AWS Inspector Agent on AWS VMs.
 
 
